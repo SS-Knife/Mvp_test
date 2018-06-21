@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mvp_test.MainActivity">
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="请夏姬八写"
+        android:textColorHint="#FFFFFF"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/xiajibaxie"
+        android:inputType="text"/>
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/xiajibaxie"
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="050dp"
+        android:onClick="regist"
+        android:text="提交"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/xiajibaxie"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/xiajibaxianshi"
+        android:background="@color/colorAccent"/>
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/xiajibaxianshi"
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="050dp"
+        android:onClick="present"
+        android:text="夏姬八显示"/>
+</RelativeLayout>
